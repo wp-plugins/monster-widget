@@ -261,10 +261,10 @@ class Monster_Widget extends WP_Widget {
 		$html = array();
 
 		$html[] = '<strong>' . __( 'Large image: Hand Coded', 'monster-widget' ) . '</strong>';
-		$html[] = '<img src="' . esc_url( plugin_dir_url( __FILE__ ) . 'images/bikes.jpg' ) . '">';
+		$html[] = '<img src="' . esc_url( plugin_dir_url( __FILE__ ) . 'images/bikes.jpg' ) . '" alt="">';
 
 		$html[] = '<strong>' . __( 'Large image: linked in a caption', 'monster-widget' ) . '</strong>';
-		$html[] = '<div class="wp-caption alignnone"><a href="#"><img src="' . esc_url( plugin_dir_url( __FILE__ ) . 'images/bikes.jpg' ) . '" class="size-large" height="720" width="960"></a><p class="wp-caption-text">' . __( 'This image is 960 by 720 pixels.', 'monster-widget' ) . ' ' . convert_smilies( ':)' ) . '</p></div>';
+		$html[] = '<div class="wp-caption alignnone"><a href="#"><img src="' . esc_url( plugin_dir_url( __FILE__ ) . 'images/bikes.jpg' ) . '" class="size-large" height="720" width="960" alt=""></a><p class="wp-caption-text">' . __( 'This image is 960 by 720 pixels.', 'monster-widget' ) . ' ' . convert_smilies( ':)' ) . '</p></div>';
 
 		$html[] = '<strong>' . __( 'Meat!', 'monster-widget' ) . '</strong>';
 		$html[] = __( 'Hamburger fatback andouille, ball tip bacon t-bone turkey tenderloin. Ball tip shank pig, t-bone turducken prosciutto ground round rump bacon pork chop short loin turkey. Pancetta ball tip salami, hamburger t-bone capicola turkey ham hock pork belly tri-tip. Biltong bresaola tail, shoulder sausage turkey cow pork chop fatback. Turkey pork pig bacon short loin meatloaf, chicken ham hock flank andouille tenderloin shank rump filet mignon. Shoulder frankfurter shankle pancetta. Jowl andouille short ribs swine venison, pork loin pork chop meatball jerky filet mignon shoulder tenderloin chicken pork.', 'monster-widget' );
@@ -274,11 +274,11 @@ class Monster_Widget extends WP_Widget {
 
 		$html[] = '<strong>' . __( 'Select Element with long value', 'monster-widget' ) . '</strong>';
 
-		$html[] = '<form method="get" action="">';
+		$html[] = '<form method="get" action="/">';
 		$html[] = '<select name="monster-widget-just-testing">';
-		$html[] = '<option value="0">' . __( 'First', 'monster-widget' ) . '</opiton>';
-		$html[] = '<option value="1">' . __( 'Second', 'monster-widget' ) . '</opiton>';
-		$html[] = '<option value="2">' . __( 'Third', 'monster-widget' ) . ' OMG! How can one option contain soooo many words? This really is a lot of words.</opiton>';
+		$html[] = '<option value="0">' . __( 'First', 'monster-widget' ) . '</option>';
+		$html[] = '<option value="1">' . __( 'Second', 'monster-widget' ) . '</option>';
+		$html[] = '<option value="2">' . __( 'Third', 'monster-widget' ) . ' OMG! How can one option contain soooo many words? This really is a lot of words.</option>';
 		$html[] = '</select>';
 		$html[] = '</form>';
 
