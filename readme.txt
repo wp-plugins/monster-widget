@@ -4,7 +4,7 @@ Contributors: automattic, mfields, lancewillett
 Tags: widget, theme development, debug
 License: GPLv2 or later
 Requires at least: 3.2.0
-Tested up to: 4.0
+Tested up to: 4.1
 Stable tag: trunk
 
 Provides a quick and easy method of adding all core widgets to a sidebar for testing purposes.
