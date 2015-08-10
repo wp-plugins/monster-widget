@@ -1,15 +1,15 @@
-===Monster Widget===
+=== Monster Widget ===
 
 Contributors: automattic, mfields, lancewillett
 Tags: widget, theme development, debug
 License: GPLv2 or later
 Requires at least: 3.2.0
-Tested up to: 4.2
+Tested up to: 4.3
 Stable tag: trunk
 
 Provides a quick and easy method of adding all core widgets to a sidebar for testing purposes.
 
-==Description==
+== Description ==
 
 The Monster widget consolidates all 13 core widgets into a single widget enabling theme developers to create multiple instances with ease. It has been created to save time during theme development and review by minimizing the steps needed to populate a sidebar with widgets. The Monster widget is not designed for use in production.
 
@@ -25,7 +25,7 @@ The core Menu widget provides an interface that enables you to select a custom m
 2. Drag it to a widget area to create an instance.
 3. View your site and see that all core widgets are displayed!
 
-==Changelog==
+== Changelog ==
 
 = v0.3 - January 5th, 2013 =
 * Added test photograph by directly to the plugin. Thanks to [Rarst](http://profiles.wordpress.org/rarst) for the bug report.
@@ -44,7 +44,7 @@ The core Menu widget provides an interface that enables you to select a custom m
 = v0.1 - May 12th, 2012 =
 * Original Release.
 
-==Installation==
+== Installation ==
 
 This plugin can be installed directly from your site.
 
@@ -62,7 +62,7 @@ It can also be installed manually.
 4. Locate "Monster Widget" in the list and click the "Activate" link.
 5. Navigate to Appearance &rarr; Widgets and [create a new instance](http://codex.wordpress.org/WordPress_Widgets#Activate_Widgets).
 
-==Frequently Asked Questions==
+== Frequently Asked Questions ==
 
 = Why was the pipe test removed in version 0.3 =
 
