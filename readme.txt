@@ -1,19 +1,22 @@
-=== Monster Widget ===
+# Monster Widget
 
-Contributors: automattic, mfields, lancewillett
-Tags: widget, theme development, debug
+### Contributors: automattic, mfields, lancewillett
+### Tags: widget, theme development, debug
+
+```
 License: GPLv2 or later
 Requires at least: 3.2.0
 Tested up to: 4.3
 Stable tag: trunk
+```
 
-Provides a quick and easy method of adding all core widgets to a sidebar for testing purposes.
+#Provides a quick and easy method of adding all core widgets to a sidebar for testing purposes.
 
-== Description ==
+### Description
 
 The Monster widget consolidates all 13 core widgets into a single widget enabling theme developers to create multiple instances with ease. It has been created to save time during theme development and review by minimizing the steps needed to populate a sidebar with widgets. The Monster widget is not designed for use in production.
 
-== Frequently Asked Questions ==
+# Frequently Asked Questions
 
 = Why I do not see the Menu widget? =
 
